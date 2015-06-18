@@ -49,13 +49,14 @@
         
         //创建文本对齐方式
         CTTextAlignment alignment = kCTTextAlignmentLeft;
+        //!!! CTTextAlignment  NSTextAlignment 枚举数值差异
         switch (self.textAlignment) {
             case NSTextAlignmentCenter:{
-                alignment = kCTTextAlignmentCenter;
+                alignment = kCTTextAlignmentRight;
                 break;
             }
             case NSTextAlignmentRight:{
-                alignment = kCTTextAlignmentRight;
+                alignment = kCTTextAlignmentCenter;
                 break;
             }
             case NSTextAlignmentJustified:{
@@ -115,7 +116,7 @@
     
     CTFrameRef leftFrame = CTFramesetterCreateFrame(framesetter,CFRangeMake(0, 0), leftColumnPath , NULL);
     
-    
+    // 普通视图坐标系原点在左上方，而QuartZ绘图的坐标系原点在左下方，所以我们先要调整坐标系。
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     CGContextSetTextMatrix(context , CGAffineTransformIdentity);
@@ -124,9 +125,8 @@
     
     CGContextScaleCTM(context, 1.0 ,-1.0);
     
-    
+    //开始绘制
     CTFrameDraw(leftFrame,context);
-    
     
     CGPathRelease(leftColumnPath);
     
