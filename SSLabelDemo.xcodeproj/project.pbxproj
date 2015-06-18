@@ -14,7 +14,7 @@
 		B58A40881B325DEC00AA505C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58A40871B325DEC00AA505C /* Images.xcassets */; };
 		B58A408B1B325DEC00AA505C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A40891B325DEC00AA505C /* LaunchScreen.xib */; };
 		B58A40971B325DEC00AA505C /* SSLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A40961B325DEC00AA505C /* SSLabelDemoTests.m */; };
-		B58A40A41B325FE100AA505C /* SSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A40A31B325FE100AA505C /* SSLabel.m */; };
+		B5B6ECC51B32802D007A906F /* SSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B6ECC31B32802D007A906F /* SSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		B58A40901B325DEC00AA505C /* SSLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A40951B325DEC00AA505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58A40961B325DEC00AA505C /* SSLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLabelDemoTests.m; sourceTree = "<group>"; };
-		B58A40A21B325FE100AA505C /* SSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLabel.h; sourceTree = "<group>"; };
-		B58A40A31B325FE100AA505C /* SSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLabel.m; sourceTree = "<group>"; };
+		B5B6ECC31B32802D007A906F /* SSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSLabel.m; path = SSLabel/SSLabel.m; sourceTree = "<group>"; };
+		B5B6ECC41B32802D007A906F /* SSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSLabel.h; path = SSLabel/SSLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,7 @@
 				B58A407F1B325DEC00AA505C /* AppDelegate.m */,
 				B58A40811B325DEC00AA505C /* ViewController.h */,
 				B58A40821B325DEC00AA505C /* ViewController.m */,
-				B58A40A21B325FE100AA505C /* SSLabel.h */,
-				B58A40A31B325FE100AA505C /* SSLabel.m */,
+				B5B6ECC21B328025007A906F /* SSLabel */,
 				B58A40841B325DEC00AA505C /* Main.storyboard */,
 				B58A40871B325DEC00AA505C /* Images.xcassets */,
 				B58A40891B325DEC00AA505C /* LaunchScreen.xib */,
@@ -122,6 +121,15 @@
 				B58A40951B325DEC00AA505C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5B6ECC21B328025007A906F /* SSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B5B6ECC31B32802D007A906F /* SSLabel.m */,
+				B5B6ECC41B32802D007A906F /* SSLabel.h */,
+			);
+			name = SSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +234,7 @@
 			files = (
 				B58A40831B325DEC00AA505C /* ViewController.m in Sources */,
 				B58A40801B325DEC00AA505C /* AppDelegate.m in Sources */,
-				B58A40A41B325FE100AA505C /* SSLabel.m in Sources */,
+				B5B6ECC51B32802D007A906F /* SSLabel.m in Sources */,
 				B58A407D1B325DEC00AA505C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +430,7 @@
 				B58A409C1B325DEC00AA505C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B58A409D1B325DEC00AA505C /* Build configuration list for PBXNativeTarget "SSLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				B58A409F1B325DEC00AA505C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
