@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58A407D1B325DEC00AA505C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A407C1B325DEC00AA505C /* main.m */; };
+		B58A40801B325DEC00AA505C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A407F1B325DEC00AA505C /* AppDelegate.m */; };
+		B58A40831B325DEC00AA505C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A40821B325DEC00AA505C /* ViewController.m */; };
+		B58A40861B325DEC00AA505C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58A40841B325DEC00AA505C /* Main.storyboard */; };
+		B58A40881B325DEC00AA505C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58A40871B325DEC00AA505C /* Images.xcassets */; };
+		B58A408B1B325DEC00AA505C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A40891B325DEC00AA505C /* LaunchScreen.xib */; };
+		B58A40971B325DEC00AA505C /* SSLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A40961B325DEC00AA505C /* SSLabelDemoTests.m */; };
+		B58A40A41B325FE100AA505C /* SSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A40A31B325FE100AA505C /* SSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B58A40911B325DEC00AA505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58A406F1B325DEC00AA505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58A40761B325DEC00AA505C;
+			remoteInfo = SSLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58A40771B325DEC00AA505C /* SSLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58A407B1B325DEC00AA505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58A407C1B325DEC00AA505C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58A407E1B325DEC00AA505C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B58A407F1B325DEC00AA505C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B58A40811B325DEC00AA505C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B58A40821B325DEC00AA505C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B58A40851B325DEC00AA505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58A40871B325DEC00AA505C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B58A408A1B325DEC00AA505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B58A40901B325DEC00AA505C /* SSLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58A40951B325DEC00AA505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58A40961B325DEC00AA505C /* SSLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLabelDemoTests.m; sourceTree = "<group>"; };
+		B58A40A21B325FE100AA505C /* SSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLabel.h; sourceTree = "<group>"; };
+		B58A40A31B325FE100AA505C /* SSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58A40741B325DEC00AA505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58A408D1B325DEC00AA505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58A406E1B325DEC00AA505C = {
+			isa = PBXGroup;
+			children = (
+				B58A40791B325DEC00AA505C /* SSLabelDemo */,
+				B58A40931B325DEC00AA505C /* SSLabelDemoTests */,
+				B58A40781B325DEC00AA505C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58A40781B325DEC00AA505C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58A40771B325DEC00AA505C /* SSLabelDemo.app */,
+				B58A40901B325DEC00AA505C /* SSLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58A40791B325DEC00AA505C /* SSLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B58A407E1B325DEC00AA505C /* AppDelegate.h */,
+				B58A407F1B325DEC00AA505C /* AppDelegate.m */,
+				B58A40811B325DEC00AA505C /* ViewController.h */,
+				B58A40821B325DEC00AA505C /* ViewController.m */,
+				B58A40A21B325FE100AA505C /* SSLabel.h */,
+				B58A40A31B325FE100AA505C /* SSLabel.m */,
+				B58A40841B325DEC00AA505C /* Main.storyboard */,
+				B58A40871B325DEC00AA505C /* Images.xcassets */,
+				B58A40891B325DEC00AA505C /* LaunchScreen.xib */,
+				B58A407A1B325DEC00AA505C /* Supporting Files */,
+			);
+			path = SSLabelDemo;
+			sourceTree = "<group>";
+		};
+		B58A407A1B325DEC00AA505C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58A407B1B325DEC00AA505C /* Info.plist */,
+				B58A407C1B325DEC00AA505C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B58A40931B325DEC00AA505C /* SSLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B58A40961B325DEC00AA505C /* SSLabelDemoTests.m */,
+				B58A40941B325DEC00AA505C /* Supporting Files */,
+			);
+			path = SSLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		B58A40941B325DEC00AA505C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58A40951B325DEC00AA505C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58A40761B325DEC00AA505C /* SSLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58A409A1B325DEC00AA505C /* Build configuration list for PBXNativeTarget "SSLabelDemo" */;
+			buildPhases = (
+				B58A40731B325DEC00AA505C /* Sources */,
+				B58A40741B325DEC00AA505C /* Frameworks */,
+				B58A40751B325DEC00AA505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLabelDemo;
+			productName = SSLabelDemo;
+			productReference = B58A40771B325DEC00AA505C /* SSLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B58A408F1B325DEC00AA505C /* SSLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58A409D1B325DEC00AA505C /* Build configuration list for PBXNativeTarget "SSLabelDemoTests" */;
+			buildPhases = (
+				B58A408C1B325DEC00AA505C /* Sources */,
+				B58A408D1B325DEC00AA505C /* Frameworks */,
+				B58A408E1B325DEC00AA505C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58A40921B325DEC00AA505C /* PBXTargetDependency */,
+			);
+			name = SSLabelDemoTests;
+			productName = SSLabelDemoTests;
+			productReference = B58A40901B325DEC00AA505C /* SSLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58A406F1B325DEC00AA505C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "guicai.li.china@gmail.com";
+				TargetAttributes = {
+					B58A40761B325DEC00AA505C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B58A408F1B325DEC00AA505C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B58A40761B325DEC00AA505C;
+					};
+				};
+			};
+			buildConfigurationList = B58A40721B325DEC00AA505C /* Build configuration list for PBXProject "SSLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58A406E1B325DEC00AA505C;
+			productRefGroup = B58A40781B325DEC00AA505C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58A40761B325DEC00AA505C /* SSLabelDemo */,
+				B58A408F1B325DEC00AA505C /* SSLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58A40751B325DEC00AA505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A40861B325DEC00AA505C /* Main.storyboard in Resources */,
+				B58A408B1B325DEC00AA505C /* LaunchScreen.xib in Resources */,
+				B58A40881B325DEC00AA505C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58A408E1B325DEC00AA505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58A40731B325DEC00AA505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A40831B325DEC00AA505C /* ViewController.m in Sources */,
+				B58A40801B325DEC00AA505C /* AppDelegate.m in Sources */,
+				B58A40A41B325FE100AA505C /* SSLabel.m in Sources */,
+				B58A407D1B325DEC00AA505C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58A408C1B325DEC00AA505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A40971B325DEC00AA505C /* SSLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58A40921B325DEC00AA505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58A40761B325DEC00AA505C /* SSLabelDemo */;
+			targetProxy = B58A40911B325DEC00AA505C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58A40841B325DEC00AA505C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58A40851B325DEC00AA505C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58A40891B325DEC00AA505C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58A408A1B325DEC00AA505C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58A40981B325DEC00AA505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B58A40991B325DEC00AA505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58A409B1B325DEC00AA505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B58A409C1B325DEC00AA505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B58A409E1B325DEC00AA505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLabelDemo.app/SSLabelDemo";
+			};
+			name = Debug;
+		};
+		B58A409F1B325DEC00AA505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLabelDemo.app/SSLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58A40721B325DEC00AA505C /* Build configuration list for PBXProject "SSLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58A40981B325DEC00AA505C /* Debug */,
+				B58A40991B325DEC00AA505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58A409A1B325DEC00AA505C /* Build configuration list for PBXNativeTarget "SSLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58A409B1B325DEC00AA505C /* Debug */,
+				B58A409C1B325DEC00AA505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B58A409D1B325DEC00AA505C /* Build configuration list for PBXNativeTarget "SSLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58A409E1B325DEC00AA505C /* Debug */,
+				B58A409F1B325DEC00AA505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58A406F1B325DEC00AA505C /* Project object */;
+}
